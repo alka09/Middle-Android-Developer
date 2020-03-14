@@ -1,5 +1,7 @@
 package ru.skillbranch.kotlinexample
 
+//UserHolder
+
 object UserHolder {
     private var map = mutableMapOf<String, User>()
 
