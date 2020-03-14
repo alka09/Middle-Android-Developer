@@ -1,6 +1,5 @@
 package ru.skillbranch.kotlinexample.extentions
 
-//Iterable
 
 fun <T> List<T>.dropLastUntil(predicate: (T) -> Boolean): List<T> {
     var list = this.toMutableList()
